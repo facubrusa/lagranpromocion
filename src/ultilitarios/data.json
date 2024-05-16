@@ -1,0 +1,175 @@
+{
+    "GanadoresPremiosClover": [
+        {
+            "id": 1, 
+            "src": "./assets/ganadores/ganadoresInEar.jpg",
+            "alt": "imagen In Ear"
+        },
+        {
+            "id": 2, 
+            "src": "./assets/ganadores/ganadoresIphone.jpg",
+            "alt": "imagen Iphone"
+        },
+        {
+            "id": 3, 
+            "src": "./assets/ganadores/ganadoresJBL.jpg",
+            "alt": "imagen In Ear"
+        }
+    ],
+    "PremiosClover": [
+        {
+            "id": 1, 
+            "src": "./assets/meses/premios.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 2, 
+            "src": "./assets/meses/abril.jpg",
+            "alt": "imagen Ip"
+        },
+        {
+            "id": 3, 
+            "src": "./assets/meses/mayo.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 4, 
+            "src": "./assets/meses/junio.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 5, 
+            "src": "./assets/meses/julio.jpg",
+            "alt": "imagen Ip"
+        },
+        {
+            "id": 6, 
+            "src": "./assets/meses/agosto.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 7, 
+            "src": "./assets/meses/septiembre.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 8, 
+            "src": "./assets/meses/octubre.jpg",
+            "alt": "imagen Ip"
+        },
+        {
+            "id": 9, 
+            "src": "./assets/meses/noviembre.jpg",
+            "alt": "imagen Ip"
+        }
+    ],
+    "Folletos": [
+        {
+            "id": 1, 
+            "src": "./assets/folletos/folleto1.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 2, 
+            "src": "./assets/folletos/folleto2.jpg",
+            "alt": "imagen Ip"
+        },
+        {
+            "id": 3, 
+            "src": "./assets/folletos/folleto3.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 4, 
+            "src": "./assets/folletos/folleto4.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 5, 
+            "src": "./assets/folletos/folleto5.jpg",
+            "alt": "imagen Ip"
+        },
+        {
+            "id": 6, 
+            "src": "./assets/folletos/folleto6.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 7, 
+            "src": "./assets/folletos/folleto7.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 8, 
+            "src": "./assets/folletos/folleto8.jpg",
+            "alt": "imagen Ip"
+        }
+    ],
+    "Premios": [
+        {
+            "id": 1, 
+            "src": "./assets/premios/Casa.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 2, 
+            "src": "./assets/premios/Quincho.jpg",
+            "alt": "imagen Ip"
+        },
+        {
+            "id": 3, 
+            "src": "./assets/premios/veinte.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 4, 
+            "src": "./assets/premios/Rouser.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 5, 
+            "src": "./assets/premios/diez.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 6, 
+            "src": "./assets/premios/Cronos.jpg",
+            "alt": "imagen Ip"
+        },
+        {
+            "id": 7, 
+            "src": "./assets/premios/treinta.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 8, 
+            "src": "./assets/premios/pulse.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 9, 
+            "src": "./assets/premios/quince.jpg",
+            "alt": "imagen Ip"
+        },
+        {
+            "id": 10, 
+            "src": "./assets/premios/Peugeot.jpg",
+            "alt": "premios"
+        },
+        {
+            "id": 11, 
+            "src": "./assets/premios/veinticinco.jpg",
+            "alt": "imagen Ip"
+        },
+        {
+            "id": 12, 
+            "src": "./assets/premios/Dominar.jpg",
+            "alt": "imagen Ip"
+        },
+        {
+            "id": 13, 
+            "src": "./assets/premios/cincuenta.jpg",
+            "alt": "imagen Ip"
+        }
+    ]
+}

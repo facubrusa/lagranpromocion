@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+
+}
+
+body {
+    min-height: 100vh;
+background-color: #030334;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+span {
+    color: #f2c70d;
+}
+
+hr {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 0;
+    width: 90%;
+    height: .1rem;
+    background-image: linear-gradient(to right, transparent, #f5f9fa, transparent);
+}
+
+@keyframes levitate {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.animate-levitate {
+    animation: levitate 3s ease-in-out infinite;
+}
+
+.anton {
+    font-family: "Anton", sans-serif;
+}
+
+.fixed > span {
+    display: block;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0.25rem;
+}
+
+.slider {
+  padding-top: 30px;
+  background: #020234;
+  height: 125pt;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  cursor: default;
+  user-select: none;
+  touch-action: none;
+}
+
+.slider:before {
+  left: 0;
+  top: 0;
+}
+.slider:after,
+.slider:before {
+  background: linear-gradient(
+      to right,
+      #08082c 0%,
+      hsla(0, 0%, 100%, 0) 100%
+  );
+  content: "";
+  height: 125pt;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider:after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider:after,
+.slider:before {
+  background: linear-gradient(
+      to right,
+      #08082c 0%,
+      hsla(0, 0%, 100%, 0) 100%
+  );
+  content: "";
+  height: 125pt;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider .slide-track-1 {
+  animation: scroll-l 30s linear infinite;
+  display: flex;
+  width: 3500px;
+}
+.slider .slide-track-2 {
+  animation: scroll-r 30s linear infinite;
+  display: flex;
+  width: 3500px;
+}
+
+.slider .slide {
+  height: 75pt;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.slider .slide img {
+  width: 280px;
+  padding: 1pc;
+  vertical-align: middle;
+  margin: 0 auto;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes scroll-l {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(calc(-250px * 7));
+  }
+}
+@keyframes scroll-r {
+  100% {
+      transform: translateX(0);
+  }
+  0% {
+      transform: translateX(calc(-250px * 7));
+  }
+}
